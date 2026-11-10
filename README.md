@@ -18,7 +18,8 @@ $$\text{Sensores Fisiológicos} \longrightarrow \text{Edge (MicroPython / Wokwi)
    - Coleta de frequência cardíaca (BPM) e temperatura corporal via conversão ADC de alta fidelidade.
    - Processamento de borda com filtragem de limiares (Taquicardia, Bradicardia, Febre).
    - Feedback visual imediato com display OLED SSD1306 e sinalização de alarme via LED/Buzzer.
-   - **Simulação Wokwi**: [Link da Simulação no Wokwi](https://wokwi.com/projects/new/micropython-esp32) *(utilizar arquivos da pasta `/iot`)*.
+   - **Repositório Privado (GitHub)**: [https://github.com/bruno82usa/fiap-cardioia-fase7](https://github.com/bruno82usa/fiap-cardioia-fase7)
+- **Simulação Wokwi**: [Link da Simulação no Wokwi](https://wokwi.com/projects/new/micropython-esp32) *(utilizar arquivos da pasta `/iot`)*.
 
 2. **Backend Integrador (Python / FastAPI)**:
    - API de telemetria em tempo real (`/api/telemetria`).
@@ -89,3 +90,4 @@ eas build -p android --profile preview
 
 ## 👥 Integrantes
 - **Bruno Gambarini** - RM561517 - Grupo 83
+
