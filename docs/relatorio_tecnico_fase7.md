@@ -60,7 +60,7 @@ O fluxo contínuo de dados é estruturado em quatro camadas operacionais fundame
   - `POST /api/chat`: Agente conversacional treinado com contexto clínico e salvaguardas éticas.
 
 ### 2.3. Distribuição e Deploy Profissional
-- **Web SPA**: Implementado com **React + Vite** e estilização via **Tailwind CSS**. Foi adicionado o arquivo `vercel.json` com regra de *rewrites* para evitar erros 404 em rotas diretas da aplicação.
+- **Web SPA**: Implementado com **React + Vite** e estilização via **Tailwind CSS**. A aplicação está publicada e acessível em: [https://fiap-cardioia-fase7.vercel.app/](https://fiap-cardioia-fase7.vercel.app/). Foi adicionado o arquivo `vercel.json` com regra de *rewrites* para evitar erros 404 em rotas diretas da aplicação.
 - **Mobile Expo**: Configurado com `app.json` definindo o identificador de pacote único `br.com.fiap.cardioia` e arquivo `eas.json` parametrizado no perfil `preview` com geração direta de artefato executável `.apk`.
 
 ---
@@ -82,3 +82,4 @@ O fluxo contínuo de dados é estruturado em quatro camadas operacionais fundame
 ---
 
 **FIAP • Engenharia de Software e Inteligência Artificial • 2026**
+
