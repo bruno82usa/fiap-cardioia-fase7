@@ -1,0 +1,34 @@
+================================================================================
+CARDIOIA - FASE 7: DA CONSTRUÇÃO DE MÓDULOS À SOLUÇÃO INTEGRADA
+FIAP - Pós-Tech em Inteligência Artificial
+Grupo: 83
+Integrante: Bruno Gambarini (RM561517)
+================================================================================
+
+1. REPOSITÓRIO GITHUB (PRIVADO):
+   https://github.com/bruno82usa/fiap-cardioia-fase7
+
+2. APLICAÇÃO WEB EM PRODUÇÃO (VERCEL):
+   https://fiap-cardioia-fase7.vercel.app/
+
+3. SIMULAÇÃO IoT MICROPYTHON (WOKWI):
+   https://wokwi.com/projects/480329730912505857
+
+4. VÍDEO DEMONSTRATIVO:
+   [COLE_AQUI_O_LINK_DO_SEU_VIDEO_DO_YOUTUBE_OU_DRIVE]
+
+5. RELATÓRIO TÉCNICO COMPLETO:
+   Disponível no repositório em: docs/Relatorio_Tecnico_CardioIA_Fase7.pdf
+
+================================================================================
+RESUMO DA ARQUITETURA ENTREGUE:
+- Hardware/Borda: Firmware em MicroPython no ESP32 com display OLED I2C, leitura
+  analógica de BPM e Temperatura e acionamento de alarmes locais (Wokwi).
+- Backend Integrador: API FastAPI em Python unificando telemetria em tempo real,
+  modelo preditivo de Machine Learning (Random Forest) e assistente clínico (LLM).
+- Front-End Web: Aplicação React + Vite + Tailwind CSS publicada na Vercel com
+  CI/CD ativo e vercel.json configurado para Single Page Application (SPA).
+- Mobile: Configuração completa para compilação .apk via Expo EAS Build
+  (app.json com domínio reverso e eas.json com perfil preview).
+================================================================================
+

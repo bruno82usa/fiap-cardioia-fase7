@@ -84,3 +84,4 @@ class CardioRiskPredictor:
         }
 
 predictor = CardioRiskPredictor()
+

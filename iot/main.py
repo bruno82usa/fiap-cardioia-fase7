@@ -133,3 +133,4 @@ while True:
     enviar_telemetria(payload)
     
     time.sleep(1.5)
+

@@ -67,3 +67,4 @@ class CardioAssistantLLM:
         }
 
 assistant_llm = CardioAssistantLLM()
+
