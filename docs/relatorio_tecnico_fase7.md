@@ -52,6 +52,7 @@ O fluxo contínuo de dados é estruturado em quatro camadas operacionais fundame
 ### 2.1. Transição de Hardware para MicroPython (Simulador Wokwi)
 - **Motivação**: A substituição da programação monolítica em C/C++ por MicroPython viabiliza maior agilidade de prototipagem, manutenibilidade do código e compatibilidade com processadores robustos (como ESP32 e Raspberry Pi).
 - **Tratamento Local**: O firmware em MicroPython realiza a leitura dos conversores ADC (pinos 34 e 35), faz o mapeamento para grandezas clínicas e executa lógica de segurança: se `BPM > 110` ou `BPM < 55`, ou `Temperatura >= 37.8°C`, aciona imediatamente o LED vermelho de alerta e o sinalizador sonoro, além de atualizar o display OLED local via barramento I2C.
+- **Link da Simulação no Wokwi**: [https://wokwi.com/projects/480329730912505857](https://wokwi.com/projects/480329730912505857)
 
 ### 2.2. Núcleo Integrador Python (FastAPI)
 - Endpoints padronizados com validação estrita de esquemas via **Pydantic**:

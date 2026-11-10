@@ -20,7 +20,7 @@ $$\text{Sensores Fisiológicos} \longrightarrow \text{Edge (MicroPython / Wokwi)
    - Feedback visual imediato com display OLED SSD1306 e sinalização de alarme via LED/Buzzer.
    - **Aplicação Web em Produção (Vercel)**: [https://fiap-cardioia-fase7.vercel.app/](https://fiap-cardioia-fase7.vercel.app/)
 - **Repositório Privado (GitHub)**: [https://github.com/bruno82usa/fiap-cardioia-fase7](https://github.com/bruno82usa/fiap-cardioia-fase7)
-- **Simulação Wokwi**: [Link da Simulação no Wokwi](https://wokwi.com/projects/new/micropython-esp32) *(utilizar arquivos da pasta `/iot`)*.
+- **Simulação Wokwi Oficial (MicroPython)**: [https://wokwi.com/projects/480329730912505857](https://wokwi.com/projects/480329730912505857)
 
 2. **Backend Integrador (Python / FastAPI)**:
    - API de telemetria em tempo real (`/api/telemetria`).

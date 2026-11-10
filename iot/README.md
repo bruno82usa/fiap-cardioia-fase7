@@ -10,9 +10,13 @@ Este módulo simula o processamento em borda (Edge Computing) de sinais vitais d
 - **LED Verde (Pino 2)**: Indica sinais vitais estáveis
 - **LED Vermelho (Pino 4) + Buzzer (Pino 15)**: Alerta imediato de Taquicardia, Bradicardia ou Febre Crítica
 
+## Link do Projeto Público no Wokwi
+- **Simulação Ativa**: [https://wokwi.com/projects/480329730912505857](https://wokwi.com/projects/480329730912505857)
+
 ## Como Executar no Wokwi
 1. Acesse: [https://wokwi.com/projects/new/micropython-esp32](https://wokwi.com/projects/new/micropython-esp32)
 2. Substitua o conteúdo do arquivo `diagram.json` pelo conteúdo de `iot/diagram.json`.
 3. Substitua o conteúdo de `main.py` pelo conteúdo de `iot/main.py`.
 4. Clique em **Start Simulation** (botão verde de Play).
 5. Ajuste os potenciômetros para testar os limiares de alarme em tempo real!
+
