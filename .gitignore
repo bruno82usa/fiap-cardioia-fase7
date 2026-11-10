@@ -1,0 +1,10 @@
+node_modules/
+dist/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+*.mhtml
+*.html
+*.pdf
+pagina_files/
